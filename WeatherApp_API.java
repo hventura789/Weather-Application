@@ -83,8 +83,9 @@ public class WeatherApp_API extends Application {
      * @return String of the weather data - specifically the temperature and the humidity for whatever location searched for
      */
     public String getWeather(String loc) {
-
-        String API_KEY = "f5f3607ab2c2024ec29aedae56fbe47c";
+        
+        //**Enter your own unique API key for the openweathermap.org API in the String below to make the app functional**
+        String API_KEY = "";
         String urlString = "http://api.openweathermap.org/data/2.5/weather?q=" +
                 loc + "&appid=" + API_KEY + "&units=imperial";
 
