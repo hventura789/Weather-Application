@@ -6,3 +6,5 @@ This API is called World Weather Finder API. The purpose of this API is to help 
 **Note:  When you are testing your program, make sure to enter the city in the format of either... "City Name" alone OR "City Name, Country Shorthand" e.g. Pittsburgh, US; or London, UK; or just Seattle**
 
 **Also NOTE: You will need to either clone the repository for the gson API (can be found on github), or download the jar files for gson 2.8.2 in order to make this app functional and to effectively connect to the OpenWeatherMap.org API. The gson API allows us to convert the json code into a Java Map<String, Object> in order to get the weather data from the OpenWeatherMap.org API and to be able to use it in our Java weather application!**
+
+**Also NOTE: You will also need to make an account on https://openweathermap.org/api and get your own unique API key in order to make this application functional. You can enter your own API key into the WeatherApp_API.java file in the beginning of the method called getWeather() - paste your API key into the String called API_KEY.
