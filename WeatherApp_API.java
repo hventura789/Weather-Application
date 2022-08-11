@@ -52,7 +52,7 @@ public class WeatherApp_API extends Application {
         int[] sizeArr = {w, h};
 
         if (w < 100 || h < 100) {
-            System.err.println("Invalid height or widht. Default size "
+            System.err.println("Invalid height or width. Default size "
                     + "(500, 500) has been set");
             sizeArr[0] = 500;
             sizeArr[1] = 500;
