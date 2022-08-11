@@ -26,7 +26,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Weather App API -- CIT 244 Final Project
  * @author Hunter Ventura
  *
  * This class will allow the user to create their own simple weather application using JavaFX and an API from OpenWeatherMap.org
