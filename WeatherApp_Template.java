@@ -1,4 +1,3 @@
-//Hunter Ventura, CIT 244, 7/25/22
 
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
